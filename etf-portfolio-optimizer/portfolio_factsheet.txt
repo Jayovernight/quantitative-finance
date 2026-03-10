@@ -1,0 +1,80 @@
+================================================================================
+  ETF PORTFOLIO OPTIMIZER - RECAPITULATIF PORTEFEUILLE
+================================================================================
+
+CONFIGURATION
+--------------------------------------------------------------------------------
+  Mode ...................... STANDARD
+  Univers ................... ***
+  Regime Detection .......... ***
+  Benchmark ................. IWDA.LSE
+  Rebalancement ............. ***
+  Nombre ETFs ............... 25
+  Vol Cible ................. 10%
+  MM% base (config) ......... ***
+  Vol Scaling ............... ***
+
+REGIME ACTUEL
+--------------------------------------------------------------------------------
+  Regime .................... BULL
+  Momentum .................. ***
+  Action .................... Investi en ETFs + MM
+  Vol Portfolio (20j) ....... 34.5%
+  -> Exposition ETFs ........ ***
+  -> Exposition MM .......... ***
+
+PERFORMANCE (Backtest 2021-2026)
+--------------------------------------------------------------------------------
+  CAGR ...................... 12.2%
+  Volatilite ................ 10.2%
+  Max Drawdown .............. -5.3%
+  Calmar .................... 2.31
+  Sharpe .................... 0.86
+
+  Performance Annuelle:
+       2021     2022     2023     2024     2025
+      14.4%     3.7%     4.7%    12.6%    26.0%
+
+ALLOCATION ACTUELLE
+--------------------------------------------------------------------------------
+  ETFs:
+    HMXS.LSE             2.5%    HSBC MSCI Pacific ex Japan UCITS ETF
+    HMES.LSE             2.5%    HSBC MSCI Europe UCITS ETF
+    SDGX.LSE             2.2%    Xtrackers MSCI Global SDGs UCITS ETF
+    MOTV.LSE             2.2%    VanEck Morningstar US Wide Moat UCITS ET
+    ESGO.LSE             0.6%    AuAg ESG Gold Mining UCITS ETF
+    GLDU.AS              0.6%    Amundi Index Solutions - Amundi NYSE Arc
+    AUCO.LSE             0.5%    L&G Gold Mining UCITS ETF
+    MAGB.SW              0.5%    Market Access NYSE Arca Gold BUGS Index
+    GDXJ.LSE             0.5%    VanEck Junior Gold Miners UCITS ETF
+    SILG.LSE             0.5%    Global X Silver Miners UCITS ETF USD Acc
+    SILV.LSE             0.5%    Global X Silver Miners UCITS ETF USD Acc
+    SLVR.XETRA           0.5%    Global X Silver Miners UCITS ETF USD Acc
+    ISLN.LSE             0.4%    iShares Physical Silver ETC
+    SSLN.LSE             0.4%    iShares Physical Silver ETC
+    XAD6.XETRA           0.4%    Xtrackers Physical Silver ETC (EUR) EUR
+    XSLR.XETRA           0.4%    Xtrackers IE Physical Silver ETC
+    XSLR.LSE             0.4%    Xtrackers IE Physical Silver ETC
+    8PSB.XETRA           0.4%    Invesco Physical Silver ETC
+    OD7N.XETRA           0.4%    WisdomTree Silver EUR
+    XAD2.XETRA           0.4%    Xtrackers Physical Silver EUR Hedged ETC
+    XSLE.XETRA           0.4%    Xtrackers IE Physical Silver EUR Hedged
+    SSLV.LSE             0.4%    Invesco Physical Silver ETC
+    00XR.XETRA           0.4%    WisdomTree Silver - EUR Daily Hedged EUR
+    NRJL.LSE             0.2%    Lyxor MSCI New Energy ESG Filtered (DR)
+
+  Money Market - 5 ETF(s):
+    XEON.XETRA                   Xtrackers EUR Overnight Rate
+    LYOR.XETRA                   Lyxor Smart Overnight Return
+    EXVM.XETRA                   iShares EUR Ultrashort Bond
+    EL4W.XETRA                   Deka EUR Money Market
+    BCFQ.XETRA                   Invesco EUR Money Market
+
+CALENDRIER
+--------------------------------------------------------------------------------
+  Date reference ............ 30/01/2026
+  Prochain rebal ............ ***
+
+================================================================================
+  Fin du recapitulatif
+================================================================================
