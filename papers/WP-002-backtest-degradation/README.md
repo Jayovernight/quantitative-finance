@@ -2,7 +2,7 @@
 
 **Auteur** : J. Jacques F.
 **Date** : Mars 2026
-**Statut** : Valide V32 (FINAL)
+**Statut** : Publié
 **Visuel** : [degradation.png](degradation.png)
 
 ---
