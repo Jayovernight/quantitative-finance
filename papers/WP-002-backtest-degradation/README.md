@@ -11,7 +11,7 @@ Votre backtest vous ment (probablement).
 
 La plupart des backtests qu'on voit passer sont faux, pas par malveillance, par construction. Et superposer deux indices sur 20 ans en disant « regardez, ça monte » n'a jamais été une stratégie.
 
-Le walk-forward est la méthode la plus honnête pour valider une approche : on découpe l'historique, on optimise sur une fenêtre, on valide sur la suivante, on recommence. L'algorithme doit prouver qu'il généralise, pas qu'il récite. Et pourtant, même avec un walk-forward propre, +30 % annualisé en out-of-sample ne garantit rien. Petit rappel : SMH a fait +73 % en 2023 et QQQ +55 %, en buy and hold.
+Le walk-forward est la méthode la plus honnête pour valider une approche : on découpe l'historique, on optimise sur une fenêtre, on valide sur la suivante, on recommence. L'algorithme doit prouver qu'il généralise, pas qu'il récite. Et pourtant, même avec un walk-forward propre, +30 % annualisé en out-of-sample ne garantit rien. Petit rappel : SMH a fait +78 % en 2023 et QQQ +58 %, en buy and hold.
 
 Plus encore, en live, chaque trade mange du spread, du slippage et de la latence. Plus on multiplie les entrées et sorties, plus ça se dégrade. Beaucoup de stratégies fonctionnent sur le papier, mais très peu survivent aux coûts réels. Et si l'edge ne tient pas en live, il n'y a pas de edge. Autant acheter un ETF et ne plus y toucher. Sérieusement. Mais bon, facile à dire après la fête.
 
