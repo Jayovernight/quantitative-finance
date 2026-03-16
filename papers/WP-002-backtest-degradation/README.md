@@ -11,13 +11,13 @@ Votre backtest vous ment (probablement).
 
 La plupart des backtests qu'on voit passer sont faux, pas par malveillance, par construction. Et superposer deux indices sur 20 ans en disant « regardez, ça monte » n'a jamais été une stratégie.
 
-Le walk-forward est la méthode la plus honnête pour valider une approche : on découpe l'historique, on optimise sur une fenêtre, on valide sur la suivante, on recommence. L'algorithme doit prouver qu'il généralise, pas qu'il récite. Et pourtant, même avec un walk-forward propre, +30 % annualisé en out-of-sample ne garantit rien. Petit rappel : SMH a fait +78 % en 2023 et QQQ +58 %, en buy and hold.
+Le walk-forward est peut-être l'une des méthodes les plus honnêtes pour valider une approche : on découpe l'historique, on optimise sur une fenêtre, on valide sur la suivante, on recommence. L'algorithme doit prouver qu'il généralise, pas qu'il récite. Et pourtant, même avec un walk-forward propre, +30 % annualisé en out-of-sample ne garantit rien. Petit rappel : SMH a fait +78 % en 2023 et QQQ +58 %, en buy and hold.
 
 Plus encore, en live, chaque trade mange du spread, du slippage et de la latence. Plus on multiplie les entrées et sorties, plus ça se dégrade. Beaucoup de stratégies fonctionnent sur le papier, mais très peu survivent aux coûts réels. Et si l'edge ne tient pas en live, il n'y a pas de edge. Autant acheter un ETF et ne plus y toucher. Sérieusement. Mais bon, facile à dire après la fête.
 
 Plus on teste de configurations, plus on overfitte. Bailey, Borwein et López de Prado l'ont mesuré : la probabilité d'overfitting augmente avec chaque paramètre ajusté, et elle est systématiquement sous-estimée.
 
-De leur côté, les marchés ne sont pas stationnaires ; ce qui marche sur une période ne marche pas sur la suivante. Ça pousse à explorer d'autres approches, et la simulation de Monte Carlo devient le chemin naturel : tester sur des milliers de scénarios, pas sur un seul historique.
+De leur côté, les marchés ne sont pas stationnaires ; ce qui marche sur une période ne marche pas sur la suivante. Ça pousse à explorer d'autres approches, et la simulation de Monte Carlo, comme la validation combinatoire (CPCV), devient le chemin naturel : tester sur des milliers de scénarios, pas sur un seul historique.
 
 Finalement, l'objectif n'est pas tant de reproduire un backtest parfait en live, mais de construire quelque chose d'assez solide pour investir avec confiance dans le temps.
 
