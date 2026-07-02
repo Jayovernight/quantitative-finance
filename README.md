@@ -2,7 +2,7 @@
 
 Projets et travaux en finance quantitative — selection d'actifs, allocation de portefeuille, trading systematique.
 
-Trois systemes developpes en Python, concus pour fonctionner sur des donnees reelles et s'executer sur des comptes de trading en production. Chaque projet a ete construit, teste et itere sur plusieurs annees de donnees historiques avant toute mise en live.
+Quatre systemes developpes en Python, concus pour fonctionner sur des donnees reelles et s'executer sur des comptes de trading en production. Chaque projet a ete construit, teste et itere sur plusieurs annees de donnees historiques avant toute mise en live.
 
 ## Projets
 
@@ -11,6 +11,7 @@ Trois systemes developpes en Python, concus pour fonctionner sur des donnees ree
 | [**multi-factor-stock-screener**](multi-factor-stock-screener/) | Selection d'actions individuelles par scoring multi-factoriel | 3 000+ titres, 30+ bourses |
 | [**etf-portfolio-optimizer**](etf-portfolio-optimizer/) | Allocation ETF optimisee sous contraintes patrimoniales | 500+ ETFs europeens et internationaux |
 | [**systematic-trading-framework**](systematic-trading-framework/) | Backtesting rigoureux et execution automatisee multi-actifs | Forex, indices, crypto |
+| [**autonomous-trading-system**](autonomous-trading-system/) | Systeme autonome end-to-end — data pipeline, ML, execution, infra auto-reparatrice | Multi-asset, production 24/7 |
 
 ## Papers
 
